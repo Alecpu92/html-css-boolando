@@ -32,6 +32,11 @@ i{
     margin: 10px;
     margin-top: 30px;
 }
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 footer{
     height: 80px;
     width: 100%;
@@ -40,3 +45,19 @@ footer{
     flex-direction: row;
     justify-content: space-between;
 }
+.contenitore-immagini{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    margin: 5px;
+}
+img{
+    width: 300px;
+    height: 400px;
+    margin-top: 30px;
+}
+.sconti{
+    color: red;
+    margin-right: 3px;
+}
+
