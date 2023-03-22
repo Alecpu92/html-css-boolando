@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 70px;
+    width: 100%;
+    background-color: orangered;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    color: white;
+    list-style-type: none;
+}
+li{
+    margin: 10px;
+    margin-top: 20px;
+}
+.logo{
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+}
+i{
+    color: white;
+    margin: 10px;
+    margin-top: 20px;
+}
