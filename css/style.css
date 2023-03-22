@@ -12,6 +12,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 ul{
     display: flex;
@@ -50,14 +51,22 @@ footer{
     width: 300px;
     height: 500px;
     margin: 5px;
+    back
 }
 img{
     width: 300px;
     height: 400px;
-    margin-top: 30px;
+    margin-top: 40px;
+    
 }
 .sconti{
     color: red;
     margin-right: 3px;
+}
+div.contenitore-immagini:hover{
+    background-image: url(../img/1b.webp);
+    width: 300px;
+    height: 400px;
+    z-index: 90;
 }
 
