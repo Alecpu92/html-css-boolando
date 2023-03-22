@@ -30,5 +30,13 @@ li{
 i{
     color: white;
     margin: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
+}
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
